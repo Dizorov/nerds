@@ -281,7 +281,7 @@ body {
 	width: 1160px;
 	margin: 0 auto;
 	padding-top: 40px;
-	padding-bottom: 75px;
+	padding-bottom: 50px;
 
 	font-size: 16px;
 	line-height: 24px;
@@ -368,8 +368,35 @@ body {
 
 .examples__list {
 	display: flex;
-
+	margin: 0;
+	padding: 0;
 	list-style: none;
+}
+
+.examples__item {
+	box-sizing: border-box;
+	position: relative;
+	width: 290px;
+	height: 180px;
+}
+
+.examples__item:not(:last-child):before {
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 52px;
+	top: 50%;
+	right: 0;
+	transform: translate(0, -50%);
+	background-color: #eeeeee;
+}
+
+.examples__link {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .contacts {
