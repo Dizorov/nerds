@@ -245,7 +245,29 @@
 		</div>
 	</footer>
 
-	
+	<section class="modal-write-us">
+		<form action="#" class="modal-write-us__form" method="POST">
+			<div class="modal-write-us__header-container">
+				<h3 class="modal-write-us__header">Напишите нам</h3>
+				<button class="modal-write-us__close-button"></button>
+			</div>
+			<div class="modal-write-us__name-and-email">
+				<div class="modal-write-us__input">
+					<label class="modal-write-us__input-header">Ваше имя:</label>
+					<input type="text" class="modal-write-us__input-field" placeholder="Имя Фамилия">
+				</div>
+				<div class="modal-write-us__input">
+					<label class="modal-write-us__input-header">Ваш e-mail:</label>
+					<input type="email" class="modal-write-us__input-field" placeholder="email@example.com">
+				</div>
+			</div>
+			<div class="modal-write-us__textfield">
+				<label class="modal-write-us__input-header">Текст письма:</label>
+				<textarea name="user-message" rows="5" class="modal-write-us__input-textfield" placeholder="В свободной форме"></textarea>
+			</div>
+			<input class="button modal-write-us__button" type="submit" name="submit" value="отправить">
+		</form>
+	</section>
 
 </body>
 </html>
