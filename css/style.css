@@ -12,6 +12,14 @@ body {
 	line-height: 24px;
 }
 
+.divider {
+	display: block;
+	margin: 0 auto;
+	width: 1160px;
+	height: 2px;
+	background-color: #eeeeee;
+}
+
 .visually-hidden {
 	position: absolute;
 	clip: rect(0 0 0 0);
@@ -267,14 +275,101 @@ body {
 
 .studio {
 	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+
 	width: 1160px;
 	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 75px;
+
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.about-us__header {
+	margin: 35px 0;
+
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+.about-us__message {
+	margin: 25px 0;
+}
+
+.about-us__small-header {
+	margin-bottom: 0px;
+
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.about-us__features-list {
+	padding: 0;
+	list-style: none;
+}
+
+.features-list__item {
+	position: relative;
+	padding: 14px 0;
+	padding-left: 40px;
+}
+
+.features-list__item:before {
+	position: absolute;
+	content: "";
+	vertical-align: middle;
+	width: 30px;
+	height: 2px;
+	background-color: #fb565a;
+	top: 24px;
+	left: 0;
+}
+
+.quality__small-header {
+	margin: 30px 0;
+	padding-left: 25px;
+
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.quality__list {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 0;
+
+	list-style: none;
+}
+
+.quality-list__header {
+	margin: 0;
+	margin-bottom: 20px;
+
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.quality-list__message {
+	margin: 0;
+
+	line-height: 18px;
 }
 
 .examples {
 	box-sizing: border-box;
 	width: 1160px;
 	margin: 0 auto;
+}
+
+.examples__list {
+	display: flex;
+
+	list-style: none;
 }
 
 .contacts {
