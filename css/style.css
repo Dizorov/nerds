@@ -36,8 +36,6 @@ body {
 	border-radius: 4px;
 }
 
-
-
 .page-header {
 	box-sizing: border-box;
 	width: 100%;
@@ -86,6 +84,7 @@ body {
 	padding: 27px 25px;
 
 	color: #000000;
+	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
 }
