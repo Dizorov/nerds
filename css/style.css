@@ -537,6 +537,17 @@ body {
 	display: none;
 }
 
+.modal-write-us_is-showed {
+	display: block;
+	animation-name: show;
+	animation-duration: .2s;
+}
+
+@keyframes show {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
 .modal-write-us__form {
 	box-sizing: border-box;
 	display: flex;
