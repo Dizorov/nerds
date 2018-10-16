@@ -397,6 +397,16 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
+	opacity: .2;
+}
+
+.examples__link:hover {
+	opacity: 1;
+}
+
+.examples__link:active {
+	opacity: .1;
 }
 
 .contacts {
