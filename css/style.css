@@ -664,16 +664,18 @@ body {
 .modal-write-us__input-field:hover,
 .modal-write-us__input-textfield:hover {
 	border-color: #b4b9bb;
+	outline: none;
 }
 
 .modal-write-us__input-field:focus,
 .modal-write-us__input-textfield:focus {
 	border-color: #000000;
+	outline: none;
 }
 
-.modal-write-us__input-field:invalid,
-.modal-write-us__input-textfield:invalid {
+.modal-write-us__input-field:invalid {
 	border-color: #e74246;
+	outline: none;
 }
 
 .modal-write-us__button {
