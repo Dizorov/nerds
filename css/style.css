@@ -413,6 +413,46 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 0;
+	margin-top: 80px;
+	padding: 54px 0;
+
+	background-color: #eeeeee;
+	background-image: url(../img/map_default.jpg);
+	background-repeat: no-repeat;
+}
+
+.contacts__contacts-block {
+	box-sizing: border-box;
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.contacts-block__card {
+	box-sizing: border-box;
+	width: 320px;
+	padding: 46px 50px;
+	background-color: #fff;
+}
+
+.contacts-block__header {
+	margin: 5px 0;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contacts-block__message {
+	margin: 20px 0;
+	color: #666666;
+	font-style: 16px;
+	line-height: 18px;
+}
+
+.contacts-block__button {
+	width: 220px;
+	margin-top: 20px;
+	padding: 14px 44px;
 }
 
 .page-footer {
