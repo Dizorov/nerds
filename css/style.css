@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 
+	color: #000000;
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
@@ -21,8 +22,21 @@ body {
 }
 
 .button {
+	margin: 0;
+	padding: 14px 30px;
 
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #fb565a;
+
+	border: none;
+	border-radius: 4px;
 }
+
+
 
 .page-header {
 	box-sizing: border-box;
@@ -114,10 +128,85 @@ body {
 	background-repeat: no-repeat;
 }
 
+.page-header__slider {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.slide__header {
+	margin: 0;
+	padding-top: 55px;
+	padding-bottom: 10px;
+
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.slide__message {
+	margin-top: 30px;
+	margin-bottom: 55px;
+
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.slider__link {
+	padding: 14px 50px;
+}
+
+.slider__slide_first,
+.slider__slide_second,
+.slider__slide_third {
+	display: none;
+	padding-bottom: 80px;
+
+	background-repeat: no-repeat;
+}
+
+.slider__slide_first {
+	padding-bottom: 80px;
+
+	background-image: url(../img/slide1.png);
+	background-position: 94% 0;
+}
+
+.slider__slide_second {
+	padding-bottom: 80px;
+
+	background-image: url(../img/slide2.png);
+	background-position: 100% 0;
+}
+
+.slider__slide_third {
+	padding-bottom: 80px;
+
+	background-image: url(../img/slide3.png);
+	background-position: 100% 0;
+}
+
+.slide--current {
+	display: block;
+}
+
 .advantages {
 	box-sizing: border-box;
 	width: 1160px;
 	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.advantages__list {
+	box-sizing: border-box;
+	display: flex;
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.advantages__card {
+
 }
 
 .studio {
