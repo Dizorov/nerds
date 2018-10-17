@@ -720,12 +720,22 @@ body {
 	width: 760px;
 }
 
+.filters__header {
+	margin: 0;
+	padding: 0;
+
+	font-size: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
 .catalog__list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 
 	margin: 0;
+	margin-top: 60px;
 	padding: 0;
 
 	list-style: none;
