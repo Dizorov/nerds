@@ -13,8 +13,11 @@ body {
 }
 
 .divider {
+	box-sizing: border-box;
+
 	display: block;
 	margin: 0 auto;
+	padding: 0 20px;
 	width: 1160px;
 	height: 2px;
 	background-color: #eeeeee;
@@ -99,8 +102,7 @@ body {
 
 	width: 1160px;
 	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding: 20px 20px 10px;
 }
 
 .main-navigation__logo {
@@ -189,6 +191,7 @@ body {
 .page-header__slider {
 	width: 1160px;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 
 .slide__header {
@@ -247,10 +250,9 @@ body {
 }
 
 .advantages {
-	box-sizing: border-box;
 	width: 1160px;
 	margin: 0 auto;
-	padding: 80px 0;
+	padding: 80px 20px;
 }
 
 .advantages__list {
@@ -288,14 +290,12 @@ body {
 }
 
 .studio {
-	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 
 	width: 1160px;
 	margin: 0 auto;
-	padding-top: 40px;
-	padding-bottom: 50px;
+	padding: 40px 20px 50px;
 
 	font-size: 16px;
 	line-height: 24px;
@@ -375,9 +375,9 @@ body {
 }
 
 .examples {
-	box-sizing: border-box;
 	width: 1160px;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 
 .examples__list {
@@ -436,9 +436,10 @@ body {
 }
 
 .contacts__contacts-block {
-	box-sizing: border-box;
 	width: 1160px;
 	margin: 0 auto;
+	padding: 0 20px;
+
 }
 
 .contacts-block__card {
@@ -466,15 +467,14 @@ body {
 .contacts-block__button {
 	width: 220px;
 	margin-top: 20px;
-	padding: 14px 44px;
+	padding: 14px 42px;
 }
 
 .page-footer {
-	box-sizing: border-box;
 	display: flex;
 	width: 1160px;
 	margin: 0 auto;
-	padding: 70px 0;
+	padding: 70px 20px;
 }
 
 .social__list {
