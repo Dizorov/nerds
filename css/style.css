@@ -1025,7 +1025,56 @@ body {
 	margin-bottom: 35px;
 }
 
+.catalog__hover-block {
+	position: absolute;
+	width: 360px;
+	min-height: 230px;
+ 	bottom: 6px;
+	text-align: center;
+
+ 	background-color: #eeeeee;
+	opacity: 0;
+	transition: .2s ease-out;
+}
+
+.catalog__item:hover .catalog__hover-block,
+.catalog__item:hover .catalog__item_header {
+	transition: .2s ease-out;
+	opacity: 1;
+}
+
+.catalog__item:hover .catalog__image {
+	transition: .2s ease-out;
+	filter: blur(1px);
+}
+
+.hover-block__header {
+	margin: 25px 0 15px;
+	padding: 0;
+	color: #000000;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.hover-block__message {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+
+	color: #666666;
+	font-style: 16px;
+	line-height: 18px;
+	font-weight: normal;
+}
+
+.hover-block__button {
+	width: 200px;
+}
+
 .catalog__item_header {
+	transition: .2s ease-out;
 	opacity: .12;
 }
 
@@ -1033,6 +1082,7 @@ body {
 	margin: 0;
 	margin-top: -7px;
 	padding: 0;
+	transition: .2s ease-out;
 }
 
 .pagination__list {
