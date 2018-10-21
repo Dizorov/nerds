@@ -143,16 +143,22 @@ body {
 
 .main-navigation__item {
 	display: flex;
+	align-items: center;
 }
 
 .main-navigation__link,
 .user-navigation__link {
-	padding: 27px 25px;
+	padding: 0 25px;
 
 	color: #000000;
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.main-navigation--current {
+	padding-bottom: 10px;
+	box-shadow: 0 2px 0 #f00;
 }
 
 .main-navigation__link:hover,
@@ -176,6 +182,7 @@ body {
 
 .user-navigation__item {
 	display: flex;
+	align-items: center;
 	position: relative;
 
 	padding-left: 40px;
@@ -186,8 +193,8 @@ body {
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	top: 31px;
-	left: 25px;
+	top: 29px;
+	left: 35px;
 
 	background-image: url(../svg/cart-icon.svg);
 	background-repeat: no-repeat;
