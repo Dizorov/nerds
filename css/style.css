@@ -3,6 +3,8 @@ body {
 	display: block;
 
 	width: 100%;
+	min-width: 1200px;
+	max-width: 1400px;
 	margin: 0;
 	padding: 0;
 
