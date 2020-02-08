@@ -6,7 +6,8 @@ body {
 	width: 100%;
 	min-width: 1200px;
 	max-width: 1400px;
-	margin: 0;
+	margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
 	padding: 0;
 
 	color: #000000;
@@ -903,7 +904,7 @@ body {
 	-webkit-box-shadow: 0 2px 1px #cfcfcf;
 
 
-	        box-shadow: 0 2px 1px #cfcfcf;	
+	        box-shadow: 0 2px 1px #cfcfcf;
 }
 
 .range__button--min {
